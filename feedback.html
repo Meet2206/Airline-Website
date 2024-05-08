@@ -1,0 +1,71 @@
+<html>
+    <head>
+    <style>
+        body{
+            background-image: url(plane2.jpg);
+            font-family: calibri;
+        }
+        p{
+            color :rgb(16, 233, 106);
+            text-align: center;
+            font-weight: 640;
+            font-size: 25px;
+        }
+        h1{
+            color: rgb(234, 78, 11);
+            text-align: center;
+            font-size: 70px;
+        }
+        h3{
+            color :rgb(88, 34, 101);
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        label{
+            text-align: center;
+            color :rgb(0, 0, 0);
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+<title>FEEDBACK FORM</title>
+<body>
+    <img src="emirate.png" align="center" width="15%" height="30%">
+    <br>
+    <h1>FEEDBACK FORM</h1>
+    <h3>We would love to hear your thoughts, concerns or problems with anything so we can improve!</h3>
+    <br>
+    <br>
+    <p>Please share your feedback as your overall experience :</p>
+    <form method="get">
+        <input type="radio" id="excellent" name="feedback" value="excellent">
+        <label for="excellent"><b>Excellent</b></label>
+        <input type="radio" id="Very Good" name="feedback" value="very good">
+        <label for="Very Good"><b>Very Good</b></label>
+        <input type="radio" id="Good" name="feedback" value="good">
+        <label for="Good"><b>Good</b></label>
+        <input type="radio" id="Need Improvement" name="feedback" value="Need Improvement">
+        <label for="Need Improvement"><b>Need Improvement</b></label>
+    <br>
+    <br>
+    <p>Write your feedback here :</p>
+        
+        <textarea id="feedback" name="feedback" rows="4" cols="50">
+        </textarea>
+    <br>
+    <br>
+    <p>Name :<input type="text" id="fullname" name="fullname"><br>
+    <p>Email :<input type="email" id="emails" name="emails"><br><br><br>
+        
+    <input type="submit" value="Submit">
+    &emsp;
+    <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>

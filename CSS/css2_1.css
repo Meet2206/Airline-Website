@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curved Image</title>
+    <style>
+        /* Apply rounded corners to the image */
+        img {
+            border-radius: 30px; /* Adjust the value as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Image with curved edges -->
+    <img src="germany.jpg" alt="Curved Image">
+    <img src="france.jpg" alt="Curved Image">
+    <img src="italy.jpg" alt="Curved Image">
+    <img src="dubai.jpg" alt="Curved Image">
+    <img src="denmark.jpg" alt="Curved Image">
+    <img src="london.jpg" alt="Curved Image">
+    <img src="las vegas.jpg" alt="Curved Image">
+    <img src="new york.jpg" alt="Curved Image">
+    <img src="san francisco.jpg" alt="Curved Image">
+
+</body>
+</html>
